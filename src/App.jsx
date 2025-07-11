@@ -1,8 +1,8 @@
 import './App.css'
+import Categoryitem from './Categoryitem'
 import Header from './header'
 import Navmenu from './Navmenu'
 import Productcategory from './Productcategory'
-import Productscarousel from './Productscarousel'
 
 function App() {
 
@@ -11,6 +11,7 @@ function App() {
         <Header/>
         <Navmenu/>
         <Productcategory/>
+        <Categoryitem/>
     </div>
   )
 }
